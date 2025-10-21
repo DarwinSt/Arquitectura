@@ -9,7 +9,6 @@ public class CsvDocument implements Document {
 
     @Override
     public String render() {
-        // Mantener formato CSV tal cual
         return "[CSV]\n" + content;
     }
 }
